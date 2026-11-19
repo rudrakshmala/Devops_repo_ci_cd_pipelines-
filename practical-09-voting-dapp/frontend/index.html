@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voting DApp</title>
+</head>
+<body>
+  <h2>Election Voting DApp</h2>
+  <button id="connectWalletBtn">Connect Wallet</button>
+  <p>Status: <span id="walletStatus">Not connected</span></p>
+  <hr>
+
+  <h3>Vote for a Candidate</h3>
+  <p><i>Note: You can only vote once per account!</i></p>
+  <button id="voteModiBtn">Vote for Modi</button>
+  <button id="voteGandhiBtn">Vote for Gandhi</button>
+  <p>Transaction Status: <strong id="txStatus">None</strong></p>
+  <hr>
+
+  <h3>Results</h3>
+  <button id="getWinnerBtn">Reveal Winner</button>
+  <p>Current Winner: <strong id="winnerDisplay">?</strong></p>
+  <p>Votes for Modi: <span id="modiVotesDisplay">0</span></p>
+  <p>Votes for Gandhi: <span id="gandhiVotesDisplay">0</span></p>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

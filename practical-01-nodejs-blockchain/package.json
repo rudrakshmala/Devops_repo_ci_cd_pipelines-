@@ -1,0 +1,12 @@
+{
+  "name": "practical-01-nodejs-blockchain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practical 1 - Simple blockchains in Node.js (add, prime, happy numbers)",
+  "scripts": {
+    "add": "node test_add.js",
+    "prime": "node test_prime.js",
+    "happy": "node test_happy.js"
+  },
+  "engines": { "node": ">=16" }
+}
